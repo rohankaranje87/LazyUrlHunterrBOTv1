@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
-    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
-    BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
+    API_ID = int(os.environ.get("API_ID", 22427155))
+    API_HASH = os.environ.get("API_HASH", "e878d26d7912064d53f197474e72d4c5")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6425587556:AAGS593_w0I-RyUu8x5-7_CuzKHP7r78oXM")
+    BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "TeraboxMovieSearch_bot")
+    USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQFWNhMAMsIC8DyAjTQh4zg9RDYVqao4EAXoLf2aCwkzfOQP6VlkWu5QdxyHOEFpFyaqOY2HGQIfhhQDQ6jLlYMgFW6TDS_XoBy-WCnVnkfuclNby4TRBMK1YSbevMrsIH611U8Y5rra5dMk3OwRoMhP-6MDbwXBSadQzylhvfvjAm1NonbkT3akFF_6CXa5cyuvOOT092dJprczEbocPi6mtpMqCrTTUdfFK_1omjx6B_w7vUI8INg6XmxmFpKRh8UtSKsN5oe88qIPJJzBUuXeu9POP33U0Kq_7XRnllySV4H_TYJzbJOe5fdBFlbOMIjJqDhQxZNozkhMTeQ1gIIg0-n6kAAAAAF-_q9kAQ")
+    CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1002104849059))
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "TeraboxMovieSearch_bot")
+    BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://linksearch72:ld1KhCKo9Yzbnczj@cluster0.lysnymj.mongodb.net/?retryWrites=true&w=majority")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
 
