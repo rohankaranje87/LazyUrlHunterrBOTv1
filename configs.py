@@ -13,7 +13,7 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -1002104849059))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "TeraboxMovieSearch_bot")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", "6267023743"))
-    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://linksearch72:ld1KhCKo9Yzbnczj@cluster0.lysnymj.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://linksearch72:tcTnUrmSQNU0kwlL@cluster0.lysnymj.mongodb.net/?retryWrites=true&w=majority")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b> <a href='https://t.me/LazyUrlHunterrBOT'>Lazy Url Hunterr</a> is an open source project.
 
